@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         [Fact]
         public void Test1()
         {
-            int expectedCount = 6;
+            int expectedCount = 5;
             var arr = controller.Get();
             Assert.Equal(arr.Count(), expectedCount);
         }
